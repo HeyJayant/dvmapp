@@ -1,16 +1,19 @@
 # dvmapp
 
-A new Flutter project.
+A new Pokedex app that uses PokeAPI.
 
-## Getting Started
+## TASK
 
-This project is a starting point for a Flutter application.
+I have created a Pokédex app. Here are all the functionalities the app contains:
 
-A few resources to get you started if this is your first Flutter project:
+1. Show the name, image, type, number, and description of the Pokémon.
+2. All details about the Pokémon must be fetched from PokéAPI’s APIs.
+3. All details fetched from API must be stored locally. If I do not have an internet connection and restart the app, the data for those Pokémon that have already been downloaded will be shown.
+4. UI: [Pokedex Recruitment Design](https://www.figma.com/file/2ebpKoyjQxZnH3hDMupmCW/DVM-APP-SEM-2?type=design&node-id=0%3A1&mode=design&t=sRqWaNGY2dCQNg6a-1)
+5. I can filter the Pokémon by type, such as Grass, Fire, and Water.
+6. I can search the Pokémon by name.
+7. Add a splash screen and app icon.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**BUGS**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Description is fetched from API, but is not updated to be shown in App
