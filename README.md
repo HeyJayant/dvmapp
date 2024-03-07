@@ -14,6 +14,6 @@ I have created a Pokédex app. Here are all the functionalities the app contains
 6. I can search the Pokémon by name.
 7. Add a splash screen and app icon.
 
-**BUGS**
+**BUG [1]**
 
-Description is fetched from API, but is not updated to be shown in App
+Loading time is high as it has to go through 300+ separate websites to parse their data to get description for each pokemon
